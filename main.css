@@ -1,0 +1,53 @@
+* {
+  font-family: "Lucida Sans";
+}
+
+body {
+  margin: 5px;
+}
+
+.topic{
+  border-bottom: gray solid 1px;
+  display: inline;
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+  background-color: inherit;
+  margin-right: 10px;
+}
+
+#toolbar *{
+  color: gray;
+  font-weight: bold;
+}
+
+#toolbar {
+  position: sticky;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content{
+  position: absolute;
+  display: none;
+  z-index: 1;
+  min-width: 160px;
+}
+
+.dropdown_content a{
+  display:block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.dropdown_content a:hover{
+  background-color: pink;
+}
+
+.dropdown:hover .dropdown_content{
+  display:block;
+}

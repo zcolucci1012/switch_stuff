@@ -1,0 +1,412 @@
+[
+    {
+      "id": "1",
+      "name": "Mario",
+      "img": "https://www.ssbwiki.com/images/thumb/4/44/Mario_SSBU.png/900px-Mario_SSBU.png"
+    },
+    {
+      "id": "2",
+      "name": "Donkey Kong",
+      "img": ""
+    },
+    {
+      "id": "3",
+      "name": "Link",
+      "img": ""
+    },
+    {
+      "id": "4",
+      "name": "Samus",
+      "img": ""
+    },
+    {
+      "id": "4e",
+      "name": "Dark Samus",
+      "img": ""
+    },
+    {
+      "id": "5",
+      "name": "Yoshi",
+      "img": ""
+    },
+    {
+      "id": "6",
+      "name": "Kirby",
+      "img": ""
+    },
+    {
+      "id": "7",
+      "name": "Fox",
+      "img": ""
+    },
+    {
+      "id": "8",
+      "name": "Pikachu",
+      "img": ""
+    },
+    {
+      "id": "9",
+      "name": "Luigi",
+      "img": ""
+    },
+    {
+      "id": "10",
+      "name": "Ness",
+      "img": ""
+    },
+    {
+      "id": "11",
+      "name": "Captain Falcon",
+      "img": ""
+    },
+    {
+      "id": "12",
+      "name": "Jigglypuff",
+      "img": ""
+    },
+    {
+      "id": "13",
+      "name": "Peach",
+      "img": ""
+    },
+    {
+      "id": "13e",
+      "name": "Daisy",
+      "img": ""
+    },
+    {
+      "id": "14",
+      "name": "Bowser",
+      "img": ""
+    },
+    {
+      "id": "15",
+      "name": "Ice Climbers",
+      "img": ""
+    },
+    {
+      "id": "16",
+      "name": "Sheik",
+      "img": ""
+    },
+    {
+      "id": "17",
+      "name": "Zelda",
+      "img": ""
+    },
+    {
+      "id": "18",
+      "name": "Dr. Mario",
+      "img": ""
+    },
+    {
+      "id": "19",
+      "name": "Pichu",
+      "img": ""
+    },
+    {
+      "id": "20",
+      "name": "Falco",
+      "img": ""
+    },
+    {
+      "id": "21",
+      "name": "Marth",
+      "img": ""
+    },
+    {
+      "id": "21e",
+      "name": "Lucina",
+      "img": ""
+    },
+    {
+      "id": "22",
+      "name": "Young Link",
+      "img": ""
+    },
+    {
+      "id": "23",
+      "name": "Ganondorf",
+      "img": ""
+    },
+    {
+      "id": "24",
+      "name": "Mewtwo",
+      "img": ""
+    },
+    {
+      "id": "25",
+      "name": "Roy",
+      "img": ""
+    },
+    {
+      "id": "25e",
+      "name": "Chrom",
+      "img": ""
+    },
+    {
+      "id": "26",
+      "name": "Mr. Game & Watch",
+      "img": ""
+    },
+    {
+      "id": "27",
+      "name": "Meta Knight",
+      "img": ""
+    },
+    {
+      "id": "28",
+      "name": "Pit",
+      "img": ""
+    },
+    {
+      "id": "28e",
+      "name": "Dark Pit",
+      "img": ""
+    },
+    {
+      "id": "29",
+      "name": "Zero Suit Samus",
+      "img": ""
+    },
+    {
+      "id": "30",
+      "name": "Wario",
+      "img": ""
+    },
+    {
+      "id": "31",
+      "name": "Snake",
+      "img": ""
+    },
+    {
+      "id": "32",
+      "name": "Lucas",
+      "img": ""
+    },
+    {
+      "id": "33",
+      "name": "Squirtle",
+      "img": ""
+    },
+    {
+      "id": "34",
+      "name": "Ivysaur",
+      "img": ""
+    },
+    {
+      "id": "35",
+      "name": "Charizard",
+      "img": ""
+    },
+    {
+      "id": "36",
+      "name": "Diddy Kong",
+      "img": ""
+    },
+    {
+      "id": "37",
+      "name": "Lucas",
+      "img": ""
+    },
+    {
+      "id": "38",
+      "name": "Sonic",
+      "img": ""
+    },
+    {
+      "id": "39",
+      "name": "King Dedede",
+      "img": ""
+    },
+    {
+      "id": "40",
+      "name": "Olimar",
+      "img": ""
+    },
+    {
+      "id": "41",
+      "name": "Lucario",
+      "img": ""
+    },
+    {
+      "id": "42",
+      "name": "R.O.B.",
+      "img": ""
+    },
+    {
+      "id": "43",
+      "name": "Toon Link",
+      "img": ""
+    },
+    {
+      "id": "44",
+      "name": "Wolf",
+      "img": ""
+    },
+    {
+      "id": "45",
+      "name": "Villager",
+      "img": ""
+    },
+    {
+      "id": "46",
+      "name": "Mega iron_man",
+      "img": ""
+    },
+    {
+      "id": "47",
+      "name": "Wii Fit Trainer",
+      "img": ""
+    },
+    {
+      "id": "48",
+      "name": "Rosalina & Luma",
+      "img": ""
+    },
+    {
+      "id": "49",
+      "name": "Little Mac",
+      "img": ""
+    },
+    {
+      "id": "50",
+      "name": "Greninja",
+      "img": ""
+    },
+    {
+      "id": "51",
+      "name": "Mii Brawler",
+      "img": ""
+    },
+    {
+      "id": "52",
+      "name": "Mii Swordfighter",
+      "img": ""
+    },
+    {
+      "id": "53",
+      "name": "Mii Gunner",
+      "img": ""
+    },
+    {
+      "id": "54",
+      "name": "Palutena",
+      "img": ""
+    },
+    {
+      "id": "55",
+      "name": "Pac-Man",
+      "img": ""
+    },
+    {
+      "id": "56",
+      "name": "Robin",
+      "img": ""
+    },
+    {
+      "id": "57",
+      "name": "Shulk",
+      "img": ""
+    },
+    {
+      "id": "58",
+      "name": "Bowser Jr.",
+      "img": ""
+    },
+    {
+      "id": "59",
+      "name": "Duck Hunt",
+      "img": ""
+    },
+    {
+      "id": "60",
+      "name": "Ryu",
+      "img": ""
+    },
+    {
+      "id": "60e",
+      "name": "Ken",
+      "img": ""
+    },
+    {
+      "id": "61",
+      "name": "Cloud",
+      "img": ""
+    },
+    {
+      "id": "62",
+      "name": "Corrin",
+      "img": ""
+    },
+    {
+      "id": "63",
+      "name": "Bayonetta",
+      "img": ""
+    },
+    {
+      "id": "64",
+      "name": "Inkling",
+      "img": ""
+    },
+    {
+      "id": "65",
+      "name": "Ridley",
+      "img": ""
+    },
+    {
+      "id": "66",
+      "name": "Simon",
+      "img": ""
+    },
+    {
+      "id": "66e",
+      "name": "Richter",
+      "img": ""
+    },
+    {
+      "id": "67",
+      "name": "King K. Rool",
+      "img": ""
+    },
+    {
+      "id": "68",
+      "name": "Isabelle",
+      "img": ""
+    },
+    {
+      "id": "69",
+      "name": "Incineroar",
+      "img": ""
+    },
+    {
+      "id": "70",
+      "name": "Pirhana Plant",
+      "img": ""
+    },
+    {
+      "id": "71",
+      "name": "Joker",
+      "img": ""
+    },
+    {
+      "id": "72",
+      "name": "Hero",
+      "img": ""
+    },
+    {
+      "id": "73",
+      "name": "Banjo & Kazooie",
+      "img": ""
+    },
+    {
+      "id": "74",
+      "name": "N/A",
+      "img": ""
+    },
+    {
+      "id": "75",
+      "name": "N/A",
+      "img": ""
+    }
+  ]
