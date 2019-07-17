@@ -17,7 +17,7 @@
   display: inline-block;
 }
 
-#picture *{
+#picture{
   width: 150px;
   height: 150px;
 }
