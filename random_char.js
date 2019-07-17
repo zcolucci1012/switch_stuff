@@ -21,6 +21,7 @@ xmlhttp.onreadystatechange = function() {
     var name = document.getElementById("name");
     name.innerHTML = character.name;
     var picture = document.getElementById("picture")
+    alert(character.img);
     picture.setAttribute("src", character.img)
   }
 };
