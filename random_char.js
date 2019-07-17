@@ -1,4 +1,4 @@
-var invalid_id = ["74", "75"];
+var invalid_id = ["72", "73", "74", "75"];
 var proceed = true;
 
 var xmlhttp = new XMLHttpRequest();
@@ -10,13 +10,13 @@ xmlhttp.onreadystatechange = function() {
       character = characters[Math.floor(Math.random() * characters.length)];
       proceed = false;
       for (var i=0; i<invalid_id.length; i++){
-        if (invalid_id[i] == character.id){
+        if (invalid_id[i].equals(character.id)){
           proceed = true;
           break;
         }
       }
     }
-    alert(character.id + character.name);
+    alert(character.id + ": " + character.name);
   }
 };
 xmlhttp.open("GET", "characters.json", true);
