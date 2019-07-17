@@ -1,6 +1,6 @@
 #character {
   position: absolute;
-  background-color: pink;
+  background-color: white;
   border: red solid 3px;
   width: 200px;
   height: 200px;
@@ -18,6 +18,6 @@
 }
 
 #picture{
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
 }
