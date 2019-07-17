@@ -11,14 +11,15 @@ xmlhttp.onreadystatechange = function() {
       proceed = false;
       for (var i=0; i<invalid_id.length; i++){
         if (invalid_id[i] == character.id){
-          alert(invalid_id[i])
-          alert(character.id)
           proceed = true;
           break;
         }
       }
     }
-    alert(character.id + ": " + character.name);
+    var id = document.getElementById("id");
+    id.innerHTML = character.id;
+    var name = document.getElementById("name");
+    name.innerHTML = character.name;
   }
 };
 xmlhttp.open("GET", "characters.json", true);
