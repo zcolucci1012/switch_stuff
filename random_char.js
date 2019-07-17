@@ -20,6 +20,8 @@ xmlhttp.onreadystatechange = function() {
     id.innerHTML = character.id;
     var name = document.getElementById("name");
     name.innerHTML = character.name;
+    var picture = document.getElementById("picture")
+    picture.setAttribute("src", character.img)
   }
 };
 xmlhttp.open("GET", "characters.json", true);
