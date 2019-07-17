@@ -9,7 +9,7 @@ xmlhttp.onreadystatechange = function() {
     if (proceed) {
       character = characters[Math.floor(Math.random() * characters.length)];
       proceed = false;
-      for (var i=0; i<invalid.length; i++){
+      for (var i=0; i<invalid_id.length; i++){
         if (invalid_id[i] == character.id){
           proceed = true;
           break;
