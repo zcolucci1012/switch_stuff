@@ -2,10 +2,28 @@
   <head>
     <title>Random Character Selector</title>
     <link rel="stylesheet" href="random_char.css">
+    <link rel="stylesheet" href="toolbar.css">
   </head>
   <body>
     <script type="text/javascript" src="characters.json"></script>
     <script type="text/javascript" src="random_char.js"></script>
+    <div id="toolbar">
+      <a href="index.html" class="topic" style="font-size: 36px">Switch Stuff</h1>
+      <div class="dropdown">
+        <a href="smash.html" class="topic">Smash</a>
+        <div class="dropdown_content">
+          <a href="random_char.html">Random Character</a>
+          <a href="iron_man.html">Iron Man</a>
+          <a href="crew_battles.html">Crew Battles</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="mario_maker.html" class="topic">Mario Maker</a>
+        <div class="dropdown_content">
+          <a href="level_ideas.html">Level Ideas</a>
+        </div>
+      </div>
+    </div>
     <div id="character">
       <p id="id"></p>
       <p id="name"></p>

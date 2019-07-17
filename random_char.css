@@ -1,9 +1,13 @@
 #character {
-  position: relative;
-  margin: 0 auto;
-  background-color: gray;
-  width: 100px;
-  height: 100px;
+  position: absolute;
+  background-color: pink;
+  border: red solid 3px;
+  width: 200px;
+  height: 200px;
   top: 50%;
+  left: 50%;
   margin-top: -100px;
+  margin-left: -100px;
+  font-family: "Lucida Sans";
+  display: inline-block;
 }
