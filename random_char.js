@@ -62,7 +62,7 @@ function checkInputs(){
 
   var advanced_settings = document.getElementById("advanced_settings")
 
-  if (advanced_settings.firstChild){
+  if (advanced_settings.hasChildNodes()){
     for (var i=0;i<advanced_settings.childNodes.length; i++){
       if (!advanced_settings.childNodes.childNodes[1].checked){
         invalid_id.push(advanced_settings.childNodes.childNodes[1].id);
