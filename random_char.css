@@ -54,7 +54,7 @@
   margin: 0px;
 }
 
-#generate {
+button {
   margin: 10px 0px 10px 0px;
   background-color: pink;
   border: red solid 3px;
@@ -88,6 +88,6 @@
   text-decoration: none;
 }
 
-#advanced_settings {
+#advanced_settings_div {
   display: none;
 }

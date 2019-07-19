@@ -91,12 +91,13 @@ function checkInputs(){
 var showAdvancedSettings = false;
 function toggleAdvancedSettings(){
   var advanced_settings = document.getElementById("advanced_settings")
+  var advanced_settings_div = document.getElementById("advanced_settings_div")
 
   if (showAdvancedSettings){
     while (advanced_settings.firstChild) {
       advanced_settings.removeChild(advanced_settings.firstChild);
     }
-    advanced_settings.setAttribute("style", "display: none")
+    advanced_settings_div.setAttribute("style", "display: none")
   }
 
   if (!showAdvancedSettings){
@@ -121,7 +122,7 @@ function toggleAdvancedSettings(){
         advanced_settings.appendChild(option)
       }
     }
-    advanced_settings.setAttribute("style", "display: block")
+    advanced_settings_div.setAttribute("style", "display: block")
   }
 
   toggleDisabled()
