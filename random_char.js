@@ -157,7 +157,7 @@ function toggleDisabled(){
       var pokemon = ["33", "34", "35"]
       for (var i=0; i<pokemon.length; i++){
         var checkbox = document.getElementById(pokemon[i]);
-        checkbox.setAttribute.checked = false;
+        checkbox.checked = false;
         checkbox.setAttribute("disabled", "true")
       }
     }
