@@ -267,7 +267,7 @@ function smash4(){
       if (characters[j].id == advanced_settings.children[i].children[1].id){
         var isSmash4 = false;
         for (var k=0; k<characters[j].series.length; k++){
-          if (characters[j].series[k] == "Smash4"){
+          if (characters[j].series[k] == "Smash 4"){
             isSmash4 = true;
           }
         }
