@@ -59,6 +59,16 @@ function checkInputs(){
       invalid_id.push(pokemon[i]);
     }
   }
+
+  var advanced_settings = document.getElementById("advanced_settings")
+
+  if (advanced_settings.firstChild){
+    for (var i=0;i<advanced_settings.childNodes.length; i++){
+      if (!advanced_settings.childNodes.childNodes[1].checked){
+        invalid_id.push(advanced_settings.childNodes.childNodes[1].id);
+      }
+    }
+  }
 }
 
 var showAdvancedSettings = false;
