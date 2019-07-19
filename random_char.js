@@ -53,10 +53,9 @@ function checkInputs(){
     invalid_id.push("33-35")
   }
   else {
-    console.log("jeff?")
     var pokemon = ["33", "34", "35"]
     for (var i=0; i<pokemon_trainer.length; i++){
-      invalid_id.push(pokemon_trainer[i]);
+      invalid_id.push(pokemon[i]);
     }
   }
 }
