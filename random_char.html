@@ -38,11 +38,11 @@
         <div>
           <div class="option">
             <label>Echo Fighters</label>
-            <input type="checkbox" id="echo_fighters" checked>
+            <input type="checkbox" id="echo_fighters" onclick="toggleDisabled()" checked>
           </div>
           <div class="option">
             <label>Separate Pokemon Trainer</label>
-            <input type="checkbox" id="pokemon_trainer">
+            <input type="checkbox" id="pokemon_trainer" onclick="toggleDisabled()">
           </div>
         </div>
         <p style="font-size: 14px" id="advanced_settings_button" onclick="toggleAdvancedSettings()">Advanced Settings ↓</p>
