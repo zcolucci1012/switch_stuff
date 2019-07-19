@@ -145,6 +145,7 @@ function toggleDisabled(){
       var echoes = ["4e", "13e", "21e", "25e", "28e", "60e", "66e"]
       for (var i=0; i<echoes.length; i++){
         var checkbox = document.getElementById(echoes[i]);
+        checkbox.checked = true;
         checkbox.disabled = false;
       }
     }
@@ -154,6 +155,7 @@ function toggleDisabled(){
       var pokemon = ["33", "34", "35"]
       for (var i=0; i<pokemon.length; i++){
         var checkbox = document.getElementById(pokemon[i]);
+        checkbox.checked = true;
         checkbox.disabled = false;
       }
     }
@@ -165,6 +167,7 @@ function toggleDisabled(){
         checkbox.disabled = true;
       }
       document.getElementById("33-35").disabled = false;
+      document.getElementById("33-35").checked = true;
     }
   }
 }
