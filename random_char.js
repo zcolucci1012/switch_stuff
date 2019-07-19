@@ -11,7 +11,6 @@ xmlhttp.onreadystatechange = function() {
       character = characters[Math.floor(Math.random() * characters.length)];
       proceed = false;
       for (var i=0; i<invalid_id.length; i++){
-        console.log(invalid_id[i]);
         if (invalid_id[i] == character.id){
           proceed = true;
           break;
@@ -64,7 +63,6 @@ function checkInputs(){
 
   if (advanced_settings.hasChildNodes()){
     for (var i=0;i<advanced_settings.children.length; i++){
-      console.log(advanced_settings.children.length)
       if (!advanced_settings.children[i].children[1].checked){
         invalid_id.push(advanced_settings.children[i].children[1].id);
       }
