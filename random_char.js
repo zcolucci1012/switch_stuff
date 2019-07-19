@@ -60,10 +60,9 @@ function checkInputs(){
     }
   }
 
-  var advanced_settings = document.getElementById("advanced_settings")
-
-
 }
+
+var advanced_settings = document.getElementById("advanced_settings")
 
 while (advanced_settings.firstChild) {
   advanced_settings.removeChild(advanced_settings.firstChild);
