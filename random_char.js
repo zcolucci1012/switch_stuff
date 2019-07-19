@@ -1,10 +1,11 @@
 var invalid_id = ["72", "73", "74", "75", "33", "34", "35"];
 var proceed = true;
+var characters;
 
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
-    var characters = JSON.parse(this.responseText);
+    characters = JSON.parse(this.responseText);
     var character;
     while (proceed) {
       character = characters[Math.floor(Math.random() * characters.length)];
@@ -57,5 +58,29 @@ function checkInputs(){
     for (var i=0; i<pokemon.length; i++){
       invalid_id.push(pokemon[i]);
     }
+  }
+
+  var advanced_settings = document.getElementById("advanced_settings")
+
+  for (var i=0; i<characters.length; i++){
+    var found = false;
+    for (var j=0; j<invalid_id.length; j++){
+      if (invalid_id[j] == characters[i].id){
+        found = true;
+      }
+    }
+    if (!found){
+      var option = document.createElement("div")
+      var label = document.createElement("label")
+      var checkbox = document.createElement("checkbox")
+      option.setAttribute("class", "option")
+      label.innerHTML = characters[i].name
+      checkbox.setAttribute("type", "checkbox")
+      checkbox.setAttribute("id", character[i].id)
+      option.appendChild("label")
+      option.appendChild("checkbox")
+      advanced_settings.appendChild(option)
+    }
+
   }
 }
