@@ -286,3 +286,63 @@ function smash4(){
 
   toggleDisabled();
 }
+
+function meleeNew(){
+  for (var i=0;i<advanced_settings.children.length; i++){
+    for (var j=0; j<characters.length; j++){
+      if (characters[j].id == advanced_settings.children[i].children[1].id){
+        if (characters[j].series[0] == "Melee"){
+          advanced_settings.children[i].children[1].checked = true;
+        }
+        else {
+          advanced_settings.children[i].children[1].checked = false;
+        }
+      }
+    }
+  }
+
+  document.getElementById("echo_fighters").checked = true;
+  document.getElementById("pokemon_trainer").checked = false;
+
+  toggleDisabled();
+}
+
+function brawlNew(){
+  for (var i=0;i<advanced_settings.children.length; i++){
+    for (var j=0; j<characters.length; j++){
+      if (characters[j].id == advanced_settings.children[i].children[1].id){
+        if (characters[j].series[0] == "Brawl"){
+          advanced_settings.children[i].children[1].checked = true;
+        }
+        else {
+          advanced_settings.children[i].children[1].checked = false;
+        }
+      }
+    }
+  }
+
+  document.getElementById("echo_fighters").checked = true;
+  document.getElementById("pokemon_trainer").checked = false;
+
+  toggleDisabled();
+}
+
+function smash4New(){
+  for (var i=0;i<advanced_settings.children.length; i++){
+    for (var j=0; j<characters.length; j++){
+      if (characters[j].id == advanced_settings.children[i].children[1].id){
+        if (characters[j].series[0] == "Smash $"){
+          advanced_settings.children[i].children[1].checked = true;
+        }
+        else {
+          advanced_settings.children[i].children[1].checked = false;
+        }
+      }
+    }
+  }
+
+  document.getElementById("echo_fighters").checked = true;
+  document.getElementById("pokemon_trainer").checked = true;
+
+  toggleDisabled();
+}
