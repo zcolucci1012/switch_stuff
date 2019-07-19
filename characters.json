@@ -2,416 +2,499 @@
     {
       "id": "1",
       "name": "Mario",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/0/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/0/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "2",
       "name": "Donkey Kong",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/1/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/1/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "3",
       "name": "Link",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/2/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/2/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "4",
       "name": "Samus",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/3/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/3/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "4e",
       "name": "Dark Samus",
-      "img": "http://images.nintendolife.com/143d3f69e4c7a/04e-dark-samus.large.jpg"
+      "img": "http://images.nintendolife.com/143d3f69e4c7a/04e-dark-samus.large.jpg",
+      "series": ["Ultimate"]
     },
     {
       "id": "5",
       "name": "Yoshi",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/4/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/4/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "6",
       "name": "Kirby",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/5/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/5/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "7",
       "name": "Fox",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/6/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/6/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "8",
       "name": "Pikachu",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/7/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/7/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "9",
       "name": "Luigi",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/8/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/8/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "10",
       "name": "Ness",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/9/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/9/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "11",
       "name": "Captain Falcon",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/10/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/10/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "12",
       "name": "Jigglypuff",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/11/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/11/image/0/large.jpg",
+      "series": ["64", "Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "13",
       "name": "Peach",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/12/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/12/image/0/large.jpg",
+      "series": ["Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "13e",
       "name": "Daisy",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/13/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/13/image/0/large.jpg",
+      "series": ["Ultimate"]
     },
     {
       "id": "14",
       "name": "Bowser",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/14/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/14/image/0/large.jpg",
+      "series": ["Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "15",
       "name": "Ice Climbers",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/15/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/15/image/0/large.jpg",
+      "series": ["Melee","Brawl","Ultimate"]
     },
     {
       "id": "16",
       "name": "Sheik",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/16/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/16/image/0/large.jpg",
+      "series": ["Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "17",
       "name": "Zelda",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/17/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/17/image/0/large.jpg",
+      "series": ["Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "18",
       "name": "Dr. Mario",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/18/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/18/image/0/large.jpg",
+      "series": ["Melee","Smash 4","Ultimate"]
     },
     {
       "id": "19",
       "name": "Pichu",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/19/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/19/image/0/large.jpg",
+      "series": ["Melee","Ultimate"]
     },
     {
       "id": "20",
       "name": "Falco",
-      "img": "http://images.nintendolife.com/list/items/falco/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/list/items/falco/image/0/large.jpg",
+      "series": ["Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "21",
       "name": "Marth",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/20/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/20/image/0/large.jpg",
+      "series": ["Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "21e",
       "name": "Lucina",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/21/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/21/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
     },
     {
       "id": "22",
       "name": "Young Link",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/22/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/22/image/0/large.jpg",
+      "series": ["Melee","Ultimate"]
     },
     {
       "id": "23",
       "name": "Ganondorf",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/23/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/23/image/0/large.jpg",
+      "series": ["Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "24",
       "name": "Mewtwo",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/24/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/24/image/0/large.jpg",
+      "series": ["Melee","Smash 4","Ultimate"]
     },
     {
       "id": "25",
       "name": "Roy",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/25/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/25/image/0/large.jpg",
+      "series": ["Melee","Smash 4","Ultimate"]
     },
     {
       "id": "25e",
       "name": "Chrom",
-      "img": "http://images.nintendolife.com/ebd43ae4cd5f9/25e-chrom.large.jpg"
+      "img": "http://images.nintendolife.com/ebd43ae4cd5f9/25e-chrom.large.jpg",
+      "series": ["Ultimate"]
     },
     {
       "id": "26",
       "name": "Mr. Game & Watch",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/26/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/26/image/0/large.jpg",
+      "series": ["Melee","Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "27",
       "name": "Meta Knight",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/27/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/27/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "28",
       "name": "Pit",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/28/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/28/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "28e",
       "name": "Dark Pit",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/29/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/29/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
     },
     {
       "id": "29",
       "name": "Zero Suit Samus",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/30/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/30/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "30",
       "name": "Wario",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/31/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/31/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "31",
       "name": "Snake",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/32/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/32/image/0/large.jpg",
+      "series": ["Brawl","Ultimate"]
     },
     {
       "id": "32",
       "name": "Ike",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/33/image/0/large.jpg"
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/33/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
     },
     {
       "id": "33",
       "name": "Squirtle",
-      "img": "https://www.ssbwiki.com/images/thumb/7/79/Squirtle_SSBU.png/150px-Squirtle_SSBU.png"
+      "img": "https://www.ssbwiki.com/images/thumb/7/79/Squirtle_SSBU.png/150px-Squirtle_SSBU.png",
+      "series": []
     },
     {
       "id": "34",
       "name": "Ivysaur",
-      "img": "https://www.ssbwiki.com/images/thumb/5/52/Ivysaur_SSBU.png/150px-Ivysaur_SSBU.png"
+      "img": "https://www.ssbwiki.com/images/thumb/5/52/Ivysaur_SSBU.png/150px-Ivysaur_SSBU.png",
+      "series": []
     },
     {
       "id": "35",
       "name": "Charizard",
-      "img": "https://www.ssbwiki.com/images/thumb/2/21/Charizard_SSBU.png/150px-Charizard_SSBU.png"
-    },
-    {
-      "id": "36",
-      "name": "Diddy Kong",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/35/image/0/large.jpg"
-    },
-    {
-      "id": "37",
-      "name": "Lucas",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/36/image/0/large.jpg"
-    },
-    {
-      "id": "38",
-      "name": "Sonic",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/37/image/0/large.jpg"
-    },
-    {
-      "id": "39",
-      "name": "King Dedede",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/38/image/0/large.jpg"
-    },
-    {
-      "id": "40",
-      "name": "Olimar",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/39/image/0/large.jpg"
-    },
-    {
-      "id": "41",
-      "name": "Lucario",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/40/image/0/large.jpg"
-    },
-    {
-      "id": "42",
-      "name": "R.O.B.",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/41/image/0/large.jpg"
-    },
-    {
-      "id": "43",
-      "name": "Toon Link",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/42/image/0/large.jpg"
-    },
-    {
-      "id": "44",
-      "name": "Wolf",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/43/image/0/large.jpg"
-    },
-    {
-      "id": "45",
-      "name": "Villager",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/44/image/0/large.jpg"
-    },
-    {
-      "id": "46",
-      "name": "Mega Man",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/45/image/0/large.jpg"
-    },
-    {
-      "id": "47",
-      "name": "Wii Fit Trainer",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/46/image/0/large.jpg"
-    },
-    {
-      "id": "48",
-      "name": "Rosalina & Luma",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/47/image/0/large.jpg"
-    },
-    {
-      "id": "49",
-      "name": "Little Mac",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/48/image/0/large.jpg"
-    },
-    {
-      "id": "50",
-      "name": "Greninja",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/49/image/0/large.jpg"
-    },
-    {
-      "id": "51",
-      "name": "Mii Brawler",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/50/image/0/large.jpg"
-    },
-    {
-      "id": "52",
-      "name": "Mii Swordfighter",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/51/image/0/large.jpg"
-    },
-    {
-      "id": "53",
-      "name": "Mii Gunner",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/52/image/0/large.jpg"
-    },
-    {
-      "id": "54",
-      "name": "Palutena",
-      "img": "http://images.nintendolife.com/list/items/palutena/image/0/large.jpg"
-    },
-    {
-      "id": "55",
-      "name": "Pac-Man",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/53/image/0/large.jpg"
-    },
-    {
-      "id": "56",
-      "name": "Robin",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/54/image/0/large.jpg"
-    },
-    {
-      "id": "57",
-      "name": "Shulk",
-      "img": "http://images.nintendolife.com/list/items/57_shulk/image/0/large.jpg"
-    },
-    {
-      "id": "58",
-      "name": "Bowser Jr.",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/55/image/0/large.jpg"
-    },
-    {
-      "id": "59",
-      "name": "Duck Hunt",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/56/image/0/large.jpg"
-    },
-    {
-      "id": "60",
-      "name": "Ryu",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/57/image/0/large.jpg"
-    },
-    {
-      "id": "60e",
-      "name": "Ken",
-      "img": "http://images.nintendolife.com/78a5edd5b6e98/60e-ken.large.jpg"
-    },
-    {
-      "id": "61",
-      "name": "Cloud",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/58/image/0/large.jpg"
-    },
-    {
-      "id": "62",
-      "name": "Corrin",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/59/image/0/large.jpg"
-    },
-    {
-      "id": "63",
-      "name": "Bayonetta",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/60/image/0/large.jpg"
-    },
-    {
-      "id": "64",
-      "name": "Inkling",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/61/image/0/large.jpg"
-    },
-    {
-      "id": "65",
-      "name": "Ridley",
-      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/62/image/0/large.jpg"
-    },
-    {
-      "id": "66",
-      "name": "Simon",
-      "img": "http://images.nintendolife.com/0fe7e545134c5/66-simon.large.jpg"
-    },
-    {
-      "id": "66e",
-      "name": "Richter",
-      "img": "http://images.nintendolife.com/97cdea4d0eaf5/66e-richter.large.jpg"
-    },
-    {
-      "id": "67",
-      "name": "King K. Rool",
-      "img": "http://images.nintendolife.com/095d9fdd36fd5/67-king-k-rool.large.jpg"
-    },
-    {
-      "id": "68",
-      "name": "Isabelle",
-      "img": "http://images.nintendolife.com/cf8b935d8bf7a/68-isabelle.large.jpg"
-    },
-    {
-      "id": "69",
-      "name": "Incineroar",
-      "img": "http://images.nintendolife.com/07d72ff3f3569/69-incineroar.large.jpg"
-    },
-    {
-      "id": "70",
-      "name": "Pirhana Plant",
-      "img": "http://images.nintendolife.com/3c6e0c96f8418/70-piranha-plant-dlc.large.jpg"
-    },
-    {
-      "id": "71",
-      "name": "Joker",
-      "img": "http://images.nintendolife.com/8edddaab8ef43/71-joker-dlc.large.jpg"
-    },
-    {
-      "id": "72",
-      "name": "Hero",
-      "img": "http://images.nintendolife.com/dc14919720b48/72-hero-dlc.large.jpg"
-    },
-    {
-      "id": "73",
-      "name": "Banjo & Kazooie",
-      "img": "http://images.nintendolife.com/e16d42f0d0a73/73-banjo-and-kazooie-dlc.large.jpg"
-    },
-    {
-      "id": "74",
-      "name": "N/A",
-      "img": ""
-    },
-    {
-      "id": "75",
-      "name": "N/A",
-      "img": ""
+      "img": "https://www.ssbwiki.com/images/thumb/2/21/Charizard_SSBU.png/150px-Charizard_SSBU.png",
+      "series": ["Smash 4"]
     },
     {
       "id": "33-35",
       "name": "Pokemon Trainer",
-      "img": "https://www.ssbwiki.com/images/thumb/2/28/Pok%C3%A9mon_Trainer_%28solo%29_SSBU.png/150px-Pok%C3%A9mon_Trainer_%28solo%29_SSBU.png"
+      "img": "https://www.ssbwiki.com/images/thumb/2/28/Pok%C3%A9mon_Trainer_%28solo%29_SSBU.png/150px-Pok%C3%A9mon_Trainer_%28solo%29_SSBU.png",
+      "series": ["Brawl","Ultimate"]
+    },
+    {
+      "id": "36",
+      "name": "Diddy Kong",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/35/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
+    },
+    {
+      "id": "37",
+      "name": "Lucas",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/36/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
+    },
+    {
+      "id": "38",
+      "name": "Sonic",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/37/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
+    },
+    {
+      "id": "39",
+      "name": "King Dedede",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/38/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
+    },
+    {
+      "id": "40",
+      "name": "Olimar",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/39/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
+    },
+    {
+      "id": "41",
+      "name": "Lucario",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/40/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
+    },
+    {
+      "id": "42",
+      "name": "R.O.B.",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/41/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
+    },
+    {
+      "id": "43",
+      "name": "Toon Link",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/42/image/0/large.jpg",
+      "series": ["Brawl","Smash 4","Ultimate"]
+    },
+    {
+      "id": "44",
+      "name": "Wolf",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/43/image/0/large.jpg",
+      "series": ["Brawl","Ultimate"]
+    },
+    {
+      "id": "45",
+      "name": "Villager",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/44/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "46",
+      "name": "Mega Man",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/45/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "47",
+      "name": "Wii Fit Trainer",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/46/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "48",
+      "name": "Rosalina & Luma",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/47/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "49",
+      "name": "Little Mac",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/48/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "50",
+      "name": "Greninja",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/49/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "51",
+      "name": "Mii Brawler",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/50/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "52",
+      "name": "Mii Swordfighter",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/51/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "53",
+      "name": "Mii Gunner",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/52/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "54",
+      "name": "Palutena",
+      "img": "http://images.nintendolife.com/list/items/palutena/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "55",
+      "name": "Pac-Man",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/53/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "56",
+      "name": "Robin",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/54/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "57",
+      "name": "Shulk",
+      "img": "http://images.nintendolife.com/list/items/57_shulk/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "58",
+      "name": "Bowser Jr.",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/55/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "59",
+      "name": "Duck Hunt",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/56/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "60",
+      "name": "Ryu",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/57/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "60e",
+      "name": "Ken",
+      "img": "http://images.nintendolife.com/78a5edd5b6e98/60e-ken.large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "61",
+      "name": "Cloud",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/58/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "62",
+      "name": "Corrin",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/59/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "63",
+      "name": "Bayonetta",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/60/image/0/large.jpg",
+      "series": ["Smash 4","Ultimate"]
+    },
+    {
+      "id": "64",
+      "name": "Inkling",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/61/image/0/large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "65",
+      "name": "Ridley",
+      "img": "http://images.nintendolife.com/news/2018/06/gallery_super_smash_bros_ultimate_character_artwork/list-item/62/image/0/large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "66",
+      "name": "Simon",
+      "img": "http://images.nintendolife.com/0fe7e545134c5/66-simon.large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "66e",
+      "name": "Richter",
+      "img": "http://images.nintendolife.com/97cdea4d0eaf5/66e-richter.large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "67",
+      "name": "King K. Rool",
+      "img": "http://images.nintendolife.com/095d9fdd36fd5/67-king-k-rool.large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "68",
+      "name": "Isabelle",
+      "img": "http://images.nintendolife.com/cf8b935d8bf7a/68-isabelle.large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "69",
+      "name": "Incineroar",
+      "img": "http://images.nintendolife.com/07d72ff3f3569/69-incineroar.large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "70",
+      "name": "Pirhana Plant",
+      "img": "http://images.nintendolife.com/3c6e0c96f8418/70-piranha-plant-dlc.large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "71",
+      "name": "Joker",
+      "img": "http://images.nintendolife.com/8edddaab8ef43/71-joker-dlc.large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "72",
+      "name": "Hero",
+      "img": "http://images.nintendolife.com/dc14919720b48/72-hero-dlc.large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "73",
+      "name": "Banjo & Kazooie",
+      "img": "http://images.nintendolife.com/e16d42f0d0a73/73-banjo-and-kazooie-dlc.large.jpg",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "74",
+      "name": "N/A",
+      "img": "",
+      "series": ["Ultimate"]
+    },
+    {
+      "id": "75",
+      "name": "N/A",
+      "img": "",
+      "series": ["Ultimate"]
     }
   ]

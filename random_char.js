@@ -182,3 +182,29 @@ function uncheckAll(){
   }
   toggleDisabled()
 }
+
+function n64(){
+  for (var i=0;i<advanced_settings.children.length; i++){
+    for (var j=0; j<characters.length; j++){
+      if (characters[j].id == advanced_settings.children[i].children[1].id){
+        var is64 = false;
+        for (var k=0; k<characters[j].series.length; k++){
+          if (characters[j].series[k] == "64"){
+            is64 = true;
+          }
+        }
+        if (is64){
+          advanced_settings.children[i].children[1].checked = true;
+        }
+        else {
+          advanced_settings.children[i].children[1].checked = false;
+        }
+      }
+    }
+  }
+
+  document.getElementById("echo_fighters").checked = true;
+  document.getElementById("pokemon_trainer").checked = false;
+
+  toggleDisabled();
+}
