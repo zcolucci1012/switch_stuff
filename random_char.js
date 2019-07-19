@@ -130,6 +130,7 @@ function toggleAdvancedSettings(){
 }
 
 function toggleDisabled(){
+  console.log("jeff")
   var advanced_settings = document.getElementById("advanced_settings")
   if (advanced_settings.children.length > 0){
     if (!echo_fighters.checked){
@@ -137,7 +138,7 @@ function toggleDisabled(){
       for (var i=0; i<echoes.length; i++){
         var checkbox = document.getElementById(echoes[i]);
         checkbox.checked = false;
-        checkbox.setAttribute("disabled", "true")
+        checkbox.disabled = true;
       }
     }
     else {
@@ -145,20 +146,20 @@ function toggleDisabled(){
         var echoes = ["4e", "13e", "21e", "25e", "28e", "60e", "66e"]
         for (var i=0; i<echoes.length; i++){
           var checkbox = document.getElementById(echoes[i]);
-          checkbox.setAttribute("disabled", "false")
+          checkbox.disabled = false;
         }
       }
     }
     if (pokemon_trainer.checked){
       document.getElementById("33-35").checked = false;
-      document.getElementById("33-35").setAttribute("disabled", "true")
+      document.getElementById("33-35").disabled = true;
     }
     else {
       var pokemon = ["33", "34", "35"]
       for (var i=0; i<pokemon.length; i++){
         var checkbox = document.getElementById(pokemon[i]);
         checkbox.checked = false;
-        checkbox.setAttribute("disabled", "true")
+        checkbox.disabled = true;
       }
     }
   }
