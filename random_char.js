@@ -54,7 +54,7 @@ function checkInputs(){
   }
   else {
     var pokemon = ["33", "34", "35"]
-    for (var i=0; i<pokemon_trainer.length; i++){
+    for (var i=0; i<pokemon.length; i++){
       invalid_id.push(pokemon[i]);
     }
   }
