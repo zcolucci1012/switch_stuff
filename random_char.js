@@ -131,7 +131,6 @@ function toggleAdvancedSettings(){
 }
 
 function toggleDisabled(){
-  console.log("jeff")
   var advanced_settings = document.getElementById("advanced_settings")
   if (advanced_settings.children.length > 0){
     if (!echo_fighters.checked){
@@ -171,4 +170,18 @@ function toggleDisabled(){
       document.getElementById("33-35").checked = true;
     }
   }
+}
+
+function checkAll(){
+  for (var i=0;i<advanced_settings.children.length; i++){
+    advanced_settings.children[i].children[1].checked = true;
+  }
+  toggleDisabled()
+}
+
+function uncheckAll(){
+  for (var i=0;i<advanced_settings.children.length; i++){
+    advanced_settings.children[i].children[1].checked = false;
+  }
+  toggleDisabled()
 }
