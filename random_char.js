@@ -36,6 +36,9 @@ function generate(){
       }
     }
   }
+  else {
+    all_unchecked = false;
+  }
   if (!all_unchecked){
     proceed = true;
     xmlhttp.open("GET", "characters.json", true);
