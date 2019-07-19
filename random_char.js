@@ -37,6 +37,7 @@ function generate(){
     }
   }
   else {
+    console.log("hnng")
     all_unchecked = false;
   }
   if (!all_unchecked){
