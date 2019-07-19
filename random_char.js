@@ -1,4 +1,5 @@
 var invalid_id = ["72", "73", "74", "75", "33", "34", "35"];
+var invisible_id = ["72", "73", "74", "75"]
 var proceed = true;
 var characters;
 
@@ -101,8 +102,8 @@ function toggleAdvancedSettings(){
   if (!showAdvancedSettings){
     for (var i=0; i<characters.length; i++){
       var found = false;
-      for (var j=0; j<invalid_id.length; j++){
-        if (invalid_id[j] == characters[i].id && invalid_id[j] != "33" && invalid_id[j] != "34" && invalid_id[j] != "35"){
+      for (var j=0; j<invisible_id.length; j++){
+        if (invisible_id[j] == characters[i].id){
           found = true;
         }
       }
