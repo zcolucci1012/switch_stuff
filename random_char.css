@@ -1,14 +1,24 @@
+* {
+  font-family: "Lucida Sans";
+}
+
+.centered {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+
+.centered * {
+  position: relative;
+}
+
 #character {
-  position: absolute;
+  margin: 0 auto;
   background-color: white;
   border: red solid 3px;
   width: 200px;
   height: 200px;
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -100px;
-  font-family: "Lucida Sans";
   padding: 5px;
   text-align: center;
 }
@@ -20,4 +30,47 @@
 #picture{
   width: 165px;
   height: 165px;
+}
+
+#name {
+  font-weight: bold;
+}
+
+#settings {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#settings>*{
+  text-align: center;
+  background-color: pink;
+  border: red solid 3px;
+  border-bottom: 0px;
+  padding: 10px;
+}
+
+#settings *{
+  margin: 0px;
+}
+
+#generate {
+  margin: 10px 0px 10px 0px;
+  background-color: pink;
+  border: red solid 3px;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+}
+
+.option *{
+  display: inline-block;
+  font-size: 14px;
+}
+
+.option label {
+  position: relative;
+  left: -5%;
+}
+
+.option input {
+  position: relative;
 }
