@@ -115,7 +115,7 @@ function toggleAdvancedSettings(){
         label.innerHTML = characters[i].name
         checkbox.setAttribute("type", "checkbox")
         checkbox.setAttribute("id", characters[i].id)
-        checkbox.setAttribute("checked")
+        checkbox.setAttribute("checked", "true")
         option.appendChild(label)
         option.appendChild(checkbox)
         advanced_settings.appendChild(option)
