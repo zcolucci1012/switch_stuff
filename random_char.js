@@ -37,7 +37,6 @@ function generate(){
     }
   }
   else {
-    console.log("hnng")
     all_unchecked = false;
   }
   if (!all_unchecked){
@@ -46,7 +45,7 @@ function generate(){
     xmlhttp.send();
   }
   else {
-    console.log("jj")
+    alert("At Least 1 (One) Box Must Be Checked")
   }
 }
 
@@ -103,7 +102,7 @@ function toggleAdvancedSettings(){
     for (var i=0; i<characters.length; i++){
       var found = false;
       for (var j=0; j<invalid_id.length; j++){
-        if (invalid_id[j] == characters[i].id){
+        if (invalid_id[j] == characters[i].id && invalid_id[j] != "33" && invalid_id[j] != "34" && invalid_id[j] != "35"){
           found = true;
         }
       }
