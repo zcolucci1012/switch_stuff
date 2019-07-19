@@ -26,6 +26,7 @@ xmlhttp.onreadystatechange = function() {
 };
 
 function generate(){
+  proceed = true;
   xmlhttp.open("GET", "characters.json", true);
   xmlhttp.send();
 }
