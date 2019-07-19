@@ -43,7 +43,7 @@ function checkInputs(){
 
   invalid_id = ["72", "73", "74", "75"]
 
-  if (echo_fighters.checked){
+  if (!echo_fighters.checked){
     var echoes = ["4e", "13e", "21e", "25e", "28e", "60e", "66e"]
     for (var i=0; i<echoes.length; i++){
       invalid_id.push(echoes[i]);
@@ -53,6 +53,7 @@ function checkInputs(){
     invalid_id.push("33-35")
   }
   else {
+    console.log("jeff?")
     var pokemon = ["33", "34", "35"]
     for (var i=0; i<pokemon_trainer.length; i++){
       invalid_id.push(pokemon_trainer[i]);
