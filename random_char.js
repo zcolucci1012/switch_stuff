@@ -27,9 +27,23 @@ xmlhttp.onreadystatechange = function() {
 };
 
 function generate(){
-  proceed = true;
-  xmlhttp.open("GET", "characters.json", true);
-  xmlhttp.send();
+  var all_unchecked = true;
+  var advanced_settings = document.getElementById("advanced_settings")
+  if (advanced_settings.hasChildNodes){
+    for (var i=0;i<advanced_settings.children.length; i++){
+      if (advanced_settings.children[i].children[1].checked){
+        all_unchecked = false;
+      }
+    }
+  }
+  if (!all_unchecked){
+    proceed = true;
+    xmlhttp.open("GET", "characters.json", true);
+    xmlhttp.send();
+  }
+  else {
+    console.log("jj")
+  }
 }
 
 var timer = window.setInterval(function(){
@@ -97,6 +111,7 @@ function toggleAdvancedSettings(){
         label.innerHTML = characters[i].name
         checkbox.setAttribute("type", "checkbox")
         checkbox.setAttribute("id", characters[i].id)
+        checkbox.setAttribute("checked")
         option.appendChild(label)
         option.appendChild(checkbox)
         advanced_settings.appendChild(option)
