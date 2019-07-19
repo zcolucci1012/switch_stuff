@@ -31,6 +31,34 @@ function generate(){
   proceed = true;
   xmlhttp.open("GET", "characters.json", true);
   xmlhttp.send();
+
+  var advanced_settings = document.getElementById("advanced_settings")
+
+  /*
+  while (advanced_settings.firstChild) {
+    advanced_settings.removeChild(advanced_settings.firstChild);
+  }
+  */
+
+  for (var i=0; i<characters.length; i++){
+    var found = false;
+    for (var j=0; j<invalid_id.length; j++){
+      if (invalid_id[j] == characters[i].id){
+        found = true;
+      }
+    }
+    if (!found){
+      var option = document.createElement("div")
+      var label = document.createElement("label")
+      var checkbox = document.createElement("checkbox")
+      option.setAttribute("class", "option")
+      label.innerHTML = characters[i].name
+      checkbox.setAttribute("type", "checkbox")
+      checkbox.setAttribute("id", characters[i].id)
+      option.appendChild(label)
+      option.appendChild(checkbox)
+      advanced_settings.appendChild(option)
+    }
 }
 
 var timer = window.setInterval(function(){
@@ -62,31 +90,5 @@ function checkInputs(){
 
 }
 
-var advanced_settings = document.getElementById("advanced_settings")
 
-/*
-while (advanced_settings.firstChild) {
-  advanced_settings.removeChild(advanced_settings.firstChild);
-}
-*/
-
-for (var i=0; i<characters.length; i++){
-  var found = false;
-  for (var j=0; j<invalid_id.length; j++){
-    if (invalid_id[j] == characters[i].id){
-      found = true;
-    }
-  }
-  if (!found){
-    var option = document.createElement("div")
-    var label = document.createElement("label")
-    var checkbox = document.createElement("checkbox")
-    option.setAttribute("class", "option")
-    label.innerHTML = characters[i].name
-    checkbox.setAttribute("type", "checkbox")
-    checkbox.setAttribute("id", characters[i].id)
-    option.appendChild(label)
-    option.appendChild(checkbox)
-    advanced_settings.appendChild(option)
-  }
 }
