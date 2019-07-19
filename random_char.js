@@ -142,17 +142,20 @@ function toggleDisabled(){
       }
     }
     else {
-      if (!echo_fighters.checked){
-        var echoes = ["4e", "13e", "21e", "25e", "28e", "60e", "66e"]
-        for (var i=0; i<echoes.length; i++){
-          var checkbox = document.getElementById(echoes[i]);
-          checkbox.disabled = false;
-        }
+      var echoes = ["4e", "13e", "21e", "25e", "28e", "60e", "66e"]
+      for (var i=0; i<echoes.length; i++){
+        var checkbox = document.getElementById(echoes[i]);
+        checkbox.disabled = false;
       }
     }
     if (pokemon_trainer.checked){
       document.getElementById("33-35").checked = false;
       document.getElementById("33-35").disabled = true;
+      var pokemon = ["33", "34", "35"]
+      for (var i=0; i<pokemon.length; i++){
+        var checkbox = document.getElementById(pokemon[i]);
+        checkbox.disabled = false;
+      }
     }
     else {
       var pokemon = ["33", "34", "35"]
@@ -161,6 +164,7 @@ function toggleDisabled(){
         checkbox.checked = false;
         checkbox.disabled = true;
       }
+      document.getElementById("33-35").disabled = false;
     }
   }
 }
