@@ -64,7 +64,7 @@ function checkInputs(){
 
   if (advanced_settings.hasChildNodes()){
     for (var i=0;i<advanced_settings.children.length; i++){
-      console.log(advanced_settings.children[i])
+      console.log(advanced_settings.children.length)
       if (!advanced_settings.children[i].children[1].checked){
         invalid_id.push(advanced_settings.children[i].children[1].id);
       }
