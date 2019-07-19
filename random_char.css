@@ -50,12 +50,8 @@
   padding: 10px;
 }
 
-#settings *{
-  margin: 0px;
-}
-
 button {
-  margin: 10px 20px 10px 20px;
+  margin: 10px 0px 10px 0px;
   background-color: pink;
   border: red solid 3px;
   font-weight: bold;
