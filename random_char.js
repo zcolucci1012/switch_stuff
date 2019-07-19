@@ -29,7 +29,7 @@ xmlhttp.onreadystatechange = function() {
 function generate(){
   var all_unchecked = true;
   var advanced_settings = document.getElementById("advanced_settings")
-  if (advanced_settings.hasChildNodes){
+  if (advanced_settings.hasChildNodes()){
     for (var i=0;i<advanced_settings.children.length; i++){
       if (advanced_settings.children[i].children[1].checked){
         all_unchecked = false;
