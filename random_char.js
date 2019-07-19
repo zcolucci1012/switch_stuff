@@ -208,3 +208,81 @@ function n64(){
 
   toggleDisabled();
 }
+
+function melee(){
+  for (var i=0;i<advanced_settings.children.length; i++){
+    for (var j=0; j<characters.length; j++){
+      if (characters[j].id == advanced_settings.children[i].children[1].id){
+        var isMelee = false;
+        for (var k=0; k<characters[j].series.length; k++){
+          if (characters[j].series[k] == "Melee"){
+            isMelee = true;
+          }
+        }
+        if (isMelee){
+          advanced_settings.children[i].children[1].checked = true;
+        }
+        else {
+          advanced_settings.children[i].children[1].checked = false;
+        }
+      }
+    }
+  }
+
+  document.getElementById("echo_fighters").checked = true;
+  document.getElementById("pokemon_trainer").checked = false;
+
+  toggleDisabled();
+}
+
+function brawl(){
+  for (var i=0;i<advanced_settings.children.length; i++){
+    for (var j=0; j<characters.length; j++){
+      if (characters[j].id == advanced_settings.children[i].children[1].id){
+        var isBrawl = false;
+        for (var k=0; k<characters[j].series.length; k++){
+          if (characters[j].series[k] == "Brawl"){
+            isBrawl = true;
+          }
+        }
+        if (isBrawl){
+          advanced_settings.children[i].children[1].checked = true;
+        }
+        else {
+          advanced_settings.children[i].children[1].checked = false;
+        }
+      }
+    }
+  }
+
+  document.getElementById("echo_fighters").checked = true;
+  document.getElementById("pokemon_trainer").checked = false;
+
+  toggleDisabled();
+}
+
+function smash4(){
+  for (var i=0;i<advanced_settings.children.length; i++){
+    for (var j=0; j<characters.length; j++){
+      if (characters[j].id == advanced_settings.children[i].children[1].id){
+        var isSmash4 = false;
+        for (var k=0; k<characters[j].series.length; k++){
+          if (characters[j].series[k] == "Smash4"){
+            isSmash4 = true;
+          }
+        }
+        if (isSmash4){
+          advanced_settings.children[i].children[1].checked = true;
+        }
+        else {
+          advanced_settings.children[i].children[1].checked = false;
+        }
+      }
+    }
+  }
+
+  document.getElementById("echo_fighters").checked = true;
+  document.getElementById("pokemon_trainer").checked = true;
+
+  toggleDisabled();
+}

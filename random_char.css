@@ -91,3 +91,7 @@ button {
 #advanced_settings_div {
   display: none;
 }
+
+#presets_div {
+  display: inline-block;
+}
