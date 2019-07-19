@@ -77,8 +77,8 @@ function checkInputs(){
       label.innerHTML = characters[i].name
       checkbox.setAttribute("type", "checkbox")
       checkbox.setAttribute("id", characters[i].id)
-      option.appendChild("label")
-      option.appendChild("checkbox")
+      option.appendChild(label)
+      option.appendChild(checkbox)
       advanced_settings.appendChild(option)
     }
 
