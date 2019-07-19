@@ -82,7 +82,7 @@ function toggleAdvancedSettings(){
       if (!found){
         var option = document.createElement("div")
         var label = document.createElement("label")
-        var checkbox = document.createElement("checkbox")
+        var checkbox = document.createElement("input")
         option.setAttribute("class", "option")
         label.innerHTML = characters[i].name
         checkbox.setAttribute("type", "checkbox")
