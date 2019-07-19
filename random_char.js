@@ -136,7 +136,7 @@ function toggleDisabled(){
       var echoes = ["4e", "13e", "21e", "25e", "28e", "60e", "66e"]
       for (var i=0; i<echoes.length; i++){
         var checkbox = document.getElementById(echoes[i]);
-        checkbox.setAttribute("checked", "false")
+        checkbox.checked = false;
         checkbox.setAttribute("disabled", "true")
       }
     }
@@ -150,14 +150,14 @@ function toggleDisabled(){
       }
     }
     if (pokemon_trainer.checked){
+      document.getElementById("33-35").checked = false;
       document.getElementById("33-35").setAttribute("disabled", "true")
-      document.getElementById("33-35").setAttribute("checked", "false")
     }
     else {
       var pokemon = ["33", "34", "35"]
       for (var i=0; i<pokemon.length; i++){
         var checkbox = document.getElementById(pokemon[i]);
-        checkbox.setAttribute("checked", "false")
+        checkbox.setAttribute.checked = false;
         checkbox.setAttribute("disabled", "true")
       }
     }
