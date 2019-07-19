@@ -38,6 +38,7 @@
 
 #settings {
   width: 75%;
+  min-width: 500px;
   margin: 0 auto;
 }
 
