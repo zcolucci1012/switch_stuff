@@ -34,7 +34,7 @@ function generate(){
 
 var timer = window.setInterval(function(){
   checkInputs()
-}, 1);
+}, 10);
 
 
 function checkInputs(){
