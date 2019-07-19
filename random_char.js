@@ -63,10 +63,10 @@ function checkInputs(){
   var advanced_settings = document.getElementById("advanced_settings")
 
   if (advanced_settings.hasChildNodes()){
-    for (var i=0;i<advanced_settings.childNodes.length; i++){
-      console.log(advanced_settings.childNodes[i].name)
-      if (!advanced_settings.childNodes[i].childNodes[1].checked){
-        invalid_id.push(advanced_settings.childNodes[i].childNodes[1].id);
+    for (var i=0;i<advanced_settings.children.length; i++){
+      console.log(advanced_settings.children[i])
+      if (!advanced_settings.children[i].children[1].checked){
+        invalid_id.push(advanced_settings.children[i].children[1].id);
       }
     }
   }
