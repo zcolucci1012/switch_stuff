@@ -61,6 +61,10 @@
   padding: 5px 10px 5px 10px;
 }
 
+.option {
+  text-align: right;
+}
+
 .option *{
   display: inline-block;
   font-size: 14px;
@@ -68,11 +72,12 @@
 
 .option label {
   position: relative;
-  left: -5%;
+  left: -52%;
 }
 
 .option input {
-  position: relative;
+  position: absolute;
+  left: 50%;
 }
 
 .dropdown_content *{
