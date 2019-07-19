@@ -69,6 +69,7 @@ function toggleAdvancedSettings(){
     while (advanced_settings.firstChild) {
       advanced_settings.removeChild(advanced_settings.firstChild);
     }
+    advanced_settings.setAttribute("style", "display: none")
   }
 
   if (!showAdvancedSettings){
@@ -92,6 +93,7 @@ function toggleAdvancedSettings(){
         advanced_settings.appendChild(option)
       }
     }
+    advanced_settings.setAttribute("style", "display: block")
   }
 
   showAdvancedSettings = !showAdvancedSettings
