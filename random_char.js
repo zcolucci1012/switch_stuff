@@ -331,7 +331,7 @@ function smash4New(){
   for (var i=0;i<advanced_settings.children.length; i++){
     for (var j=0; j<characters.length; j++){
       if (characters[j].id == advanced_settings.children[i].children[1].id){
-        if (characters[j].series[0] == "Smash $"){
+        if (characters[j].series[0] == "Smash 4"){
           advanced_settings.children[i].children[1].checked = true;
         }
         else {
